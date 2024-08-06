@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 64,
             "patches": [
                 {
                     "date": 1722926311609,
@@ -16,6 +16,254 @@
                 {
                     "date": 1722926412506,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,5 @@\n \r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n+\r\n"
+                },
+                {
+                    "date": 1722928526325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # 컴퓨터 비전에서 객체 감지\r\n-\r\n+객체 감지 방법: one vs two stage\r\n ## IoU\r\n \r\n ## mAP\r\n \r\n"
+                },
+                {
+                    "date": 1722928549867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n # 컴퓨터 비전에서 객체 감지\r\n 객체 감지 방법: one vs two stage\r\n+\r\n+![alt text](image.png)\r\n+\r\n ## IoU\r\n \r\n ## mAP\r\n \r\n"
+                },
+                {
+                    "date": 1722928565767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # 컴퓨터 비전에서 객체 감지\r\n 객체 감지 방법: one vs two stage\r\n \r\n ![alt text](image.png)\r\n-\r\n+![alt text](image-1.png)\r\n ## IoU\r\n \r\n ## mAP\r\n \r\n"
+                },
+                {
+                    "date": 1722928588846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n # 컴퓨터 비전에서 객체 감지\r\n+\r\n 객체 감지 방법: one vs two stage\r\n \r\n ![alt text](image.png)\r\n ![alt text](image-1.png)\r\n"
+                },
+                {
+                    "date": 1722928610282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n # 컴퓨터 비전에서 객체 감지\r\n-\r\n+키워드: 위치감지와 분류\r\n 객체 감지 방법: one vs two stage\r\n \r\n ![alt text](image.png)\r\n ![alt text](image-1.png)\r\n"
+                },
+                {
+                    "date": 1722928639472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n # 컴퓨터 비전에서 객체 감지\r\n-키워드: 위치감지와 분류\r\n+키워드: 위치감지(Localistation)와 분류(classification)\r\n 객체 감지 방법: one vs two stage\r\n \r\n ![alt text](image.png)\r\n ![alt text](image-1.png)\r\n ## IoU\r\n-\r\n+W\r\n ## mAP\r\n \r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722928659123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+# 컴퓨터 비전에서 객체 감지\r\n+키워드: 위치감지(Localistation)와 분류(classification)\r\n+![alt text](image-2.png)\r\n+\r\n+객체 감지 방법: one vs two stage\r\n+\r\n+![alt text](image.png)\r\n+![alt text](image-1.png)\r\n+## IoU\r\n+W\r\n+## mAP\r\n+\r\n+## NMS\r\n+\r\n+## 객체 인식 기초 이론\r\n+\r\n"
+                },
+                {
+                    "date": 1722928709062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,26 +1,17 @@\n # 컴퓨터 비전에서 객체 감지\r\n-키워드: 위치감지(Localistation)와 분류(classification)\r\n+### 키워드\r\n+위치감지(Localistation)와 분류(classification)\r\n ![alt text](image-2.png)\r\n \r\n-객체 감지 방법: one vs two stage\r\n+### 객체 감지 방법: one vs two stage\r\n \r\n ![alt text](image.png)\r\n ![alt text](image-1.png)\r\n-## IoU\r\n-W\r\n-## mAP\r\n \r\n-## NMS\r\n+### 그외 세그멘테이션\r\n+![alt text](image-3.png)\r\n \r\n-## 객체 인식 기초 이론\r\n-\r\n-# 컴퓨터 비전에서 객체 감지\r\n-키워드: 위치감지(Localistation)와 분류(classification)\r\n-객체 감지 방법: one vs two stage\r\n-\r\n-![alt text](image.png)\r\n-![alt text](image-1.png)\r\n ## IoU\r\n W\r\n ## mAP\r\n \r\n"
+                },
+                {
+                    "date": 1722928737887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n ### 그외 세그멘테이션\r\n ![alt text](image-3.png)\r\n \r\n ## IoU\r\n-W\r\n+어떻게 잘찾았다고 할것인가에대한 지표가 필요\r\n+\r\n+\r\n ## mAP\r\n \r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722928750712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,12 @@\n ![alt text](image-3.png)\r\n \r\n ## IoU\r\n 어떻게 잘찾았다고 할것인가에대한 지표가 필요\r\n+![alt text](image-4.png)\r\n \r\n \r\n+\r\n ## mAP\r\n \r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722928873875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,13 @@\n \r\n ### 그외 세그멘테이션\r\n ![alt text](image-3.png)\r\n \r\n-## IoU\r\n+## IoU(Intersection of unionIoU)\r\n 어떻게 잘찾았다고 할것인가에대한 지표가 필요\r\n ![alt text](image-4.png)\r\n \r\n+IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n \r\n ## mAP\r\n \r\n"
+                },
+                {
+                    "date": 1722928965329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,10 @@\n \r\n \r\n ## mAP\r\n \r\n+\r\n+\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722929023928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n \r\n ## mAP\r\n+알고리즘의성능지표정하기-어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n \r\n \r\n \r\n ## NMS\r\n"
+                },
+                {
+                    "date": 1722929031369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n ![alt text](image-4.png)\r\n \r\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n-\r\n+IoU = (TP)/(TP+FP+FN)\r\n ## mAP\r\n 알고리즘의성능지표정하기-어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1722929070772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,12 @@\n ![alt text](image-4.png)\r\n \r\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n+### IoU 계산\r\n IoU = (TP)/(TP+FP+FN)\r\n+TP: True Positive, FP: False Positive, FN: False Negative\r\n+\r\n ## mAP\r\n 알고리즘의성능지표정하기-어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1722929094936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,11 @@\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n ## mAP\r\n 알고리즘의성능지표정하기-어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n+![alt text](image-5.png)\r\n \r\n \r\n-\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722929126053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,12 +21,13 @@\n IoU = (TP)/(TP+FP+FN)\r\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n ## mAP\r\n-알고리즘의성능지표정하기-어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n+알고리즘의성능지표정하기\r\n+- 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n+- \r\n \r\n-\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722929146151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n ## mAP\r\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n-- \r\n+- 성능이라는것을어떤것을고려해야할까?\r\n \r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929203856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,11 @@\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n-\r\n+  \r\n+        누가더예측을잘했을까\r\n+- ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722929240345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,12 @@\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n   \r\n         누가더예측을잘했을까\r\n+    1. ㅇ\r\n+    2. ㅇ\r\n+    3. ㅇ\r\n+    4. ㅇ\r\n - ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929310762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n   \r\n-        누가더예측을잘했을까\r\n-    1. ㅇ\r\n+        누가더예측을잘했을까?\r\n+    1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까\r\n     2. ㅇ\r\n     3. ㅇ\r\n     4. ㅇ\r\n - ㅇ\r\n"
+                },
+                {
+                    "date": 1722929325807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n   \r\n         누가더예측을잘했을까?\r\n-    1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까\r\n-    2. ㅇ\r\n+    1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n+    2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. ㅇ\r\n     4. ㅇ\r\n - ㅇ\r\n ## NMS\r\n"
+                },
+                {
+                    "date": 1722929428042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,14 @@\n \r\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n ### IoU 계산\r\n+\r\n IoU = (TP)/(TP+FP+FN)\r\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n+(뒤에가 검출 성공 여부, 앞에가 정답 여부)\r\n+\r\n ## mAP\r\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n"
+                },
+                {
+                    "date": 1722929510080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n \r\n IoU = (TP)/(TP+FP+FN)\r\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n-(뒤에가 검출 성공 여부, 앞에가 정답 여부)\r\n+(뒤에가 검출 성공 여부(클래스), 앞에가 정답 여부(IOU))\r\n \r\n ## mAP\r\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n"
+                },
+                {
+                    "date": 1722929567405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,14 +28,15 @@\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n-  \r\n+![alt text](image-6.png)\r\n         누가더예측을잘했을까?\r\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. ㅇ\r\n     4. ㅇ\r\n+\r\n - ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929617801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n ![alt text](image-6.png)\r\n         누가더예측을잘했을까?\r\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n-    3. ㅇ\r\n+    3. 시험문제의공정성, IoU기준이다르면?\r\n     4. ㅇ\r\n \r\n - ㅇ\r\n ## NMS\r\n"
+                },
+                {
+                    "date": 1722929631582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,10 @@\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n ![alt text](image-6.png)\r\n+\r\n+\r\n         누가더예측을잘했을까?\r\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. 시험문제의공정성, IoU기준이다르면?\r\n"
+                },
+                {
+                    "date": 1722929725955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n ![alt text](image-6.png)\r\n+![alt text](image-7.png)\r\n \r\n-\r\n         누가더예측을잘했을까?\r\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. 시험문제의공정성, IoU기준이다르면?\r\n"
+                },
+                {
+                    "date": 1722929752772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,11 @@\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. 시험문제의공정성, IoU기준이다르면?\r\n     4. ㅇ\r\n+![alt text](image-8.png)\r\n \r\n+\r\n - ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929758305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n         누가더예측을잘했을까?\r\n     1. 헬멧만보고사람이라고맞춘알고리즘이맞는것일까?\r\n     2. 알맞게사람이있는영역을찾았지만사람대신고양이라고판별한것이맞을까\r\n     3. 시험문제의공정성, IoU기준이다르면?\r\n-    4. ㅇ\r\n+    4. 시험문제의공정성, 신뢰도기준이다르면?\r\n ![alt text](image-8.png)\r\n \r\n \r\n - ㅇ\r\n"
+                },
+                {
+                    "date": 1722929813260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,10 @@\n ![alt text](image-8.png)\r\n \r\n \r\n - ㅇ\r\n+  ![alt text](image-9.png)\r\n+- D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722929828832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n     4. 시험문제의공정성, 신뢰도기준이다르면?\r\n ![alt text](image-8.png)\r\n \r\n \r\n-- ㅇ\r\n+- 좋은성능지표를내려면고려해야하는것들\r\n   ![alt text](image-9.png)\r\n - D\r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722929886342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n \r\n \r\n - 좋은성능지표를내려면고려해야하는것들\r\n   ![alt text](image-9.png)\r\n+  ![alt text](image-10.png)\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929925645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n \r\n - 좋은성능지표를내려면고려해야하는것들\r\n   ![alt text](image-9.png)\r\n   ![alt text](image-10.png)\r\n+  신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722929930987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \r\n - 좋은성능지표를내려면고려해야하는것들\r\n   ![alt text](image-9.png)\r\n   ![alt text](image-10.png)\r\n-  신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n+    신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930037493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,10 @@\n   ![alt text](image-9.png)\r\n   ![alt text](image-10.png)\r\n     신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n+  ![alt text](image-11.png)\r\n+- D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930043596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,9 @@\n   ![alt text](image-10.png)\r\n     신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n   ![alt text](image-11.png)\r\n+\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930068368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,10 @@\n   ![alt text](image-10.png)\r\n     신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n   ![alt text](image-11.png)\r\n-\r\n+    - TP ➡Positive으로응답(알고리즘이검출)IoU를역치를만족하고, 분류또한정답(True)\r\n+    - \r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930083810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,9 @@\n     신뢰도역치값에따라변하는Recall에따른Precision의값의평균= PR 곡선아래의면적\r\n - D\r\n   ![alt text](image-11.png)\r\n     - TP ➡Positive으로응답(알고리즘이검출)IoU를역치를만족하고, 분류또한정답(True)\r\n+    - FP ➡Positive으로응답(알고리즘이검출)했으나IoU를역치를만족하지못하여틀린답(False)\r\n     - \r\n - D\r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722930104345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n - D\r\n   ![alt text](image-11.png)\r\n     - TP ➡Positive으로응답(알고리즘이검출)IoU를역치를만족하고, 분류또한정답(True)\r\n     - FP ➡Positive으로응답(알고리즘이검출)했으나IoU를역치를만족하지못하여틀린답(False)\r\n+    - FN ➡Negative으로응답(알고리즘이검출할게없다고답함)알고리즘이타겟을놓침(검출하지못함)\r\n     - \r\n - D\r\n ## NMS\r\n \r\n"
+                },
+                {
+                    "date": 1722930120442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n   ![alt text](image-11.png)\r\n     - TP ➡Positive으로응답(알고리즘이검출)IoU를역치를만족하고, 분류또한정답(True)\r\n     - FP ➡Positive으로응답(알고리즘이검출)했으나IoU를역치를만족하지못하여틀린답(False)\r\n     - FN ➡Negative으로응답(알고리즘이검출할게없다고답함)알고리즘이타겟을놓침(검출하지못함)\r\n-    - \r\n+    - FN➡IoU를만족시켰으나Negative(Cat으로응답)으로응답분류가잘못됨\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930141643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n     - TP ➡Positive으로응답(알고리즘이검출)IoU를역치를만족하고, 분류또한정답(True)\r\n     - FP ➡Positive으로응답(알고리즘이검출)했으나IoU를역치를만족하지못하여틀린답(False)\r\n     - FN ➡Negative으로응답(알고리즘이검출할게없다고답함)알고리즘이타겟을놓침(검출하지못함)\r\n     - FN➡IoU를만족시켰으나Negative(Cat으로응답)으로응답분류가잘못됨\r\n+    - TN ➡Negative으로응답(검출할게없다고답함). 실제로도그곳은물체가없기때문에정답임(True)\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930240384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,10 @@\n     - FN ➡Negative으로응답(알고리즘이검출할게없다고답함)알고리즘이타겟을놓침(검출하지못함)\r\n     - FN➡IoU를만족시켰으나Negative(Cat으로응답)으로응답분류가잘못됨\r\n     - TN ➡Negative으로응답(검출할게없다고답함). 실제로도그곳은물체가없기때문에정답임(True)\r\n - D\r\n+  ![alt text](image-12.png)\r\n+- D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930255811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,8 +52,9 @@\n     - FN➡IoU를만족시켰으나Negative(Cat으로응답)으로응답분류가잘못됨\r\n     - TN ➡Negative으로응답(검출할게없다고답함). 실제로도그곳은물체가없기때문에정답임(True)\r\n - D\r\n   ![alt text](image-12.png)\r\n+  ![alt text](image-13.png)\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930324392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,10 @@\n     - TN ➡Negative으로응답(검출할게없다고답함). 실제로도그곳은물체가없기때문에정답임(True)\r\n - D\r\n   ![alt text](image-12.png)\r\n   ![alt text](image-13.png)\r\n+\r\n+  ![alt text](image-14.png)\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930337085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,9 @@\n   ![alt text](image-12.png)\r\n   ![alt text](image-13.png)\r\n \r\n   ![alt text](image-14.png)\r\n+  ![alt text](image-15.png)\r\n - D\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930365601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     - FP ➡Positive으로응답(알고리즘이검출)했으나IoU를역치를만족하지못하여틀린답(False)\r\n     - FN ➡Negative으로응답(알고리즘이검출할게없다고답함)알고리즘이타겟을놓침(검출하지못함)\r\n     - FN➡IoU를만족시켰으나Negative(Cat으로응답)으로응답분류가잘못됨\r\n     - TN ➡Negative으로응답(검출할게없다고답함). 실제로도그곳은물체가없기때문에정답임(True)\r\n-- D\r\n+- AP를구해봅시다.\r\n   ![alt text](image-12.png)\r\n   ![alt text](image-13.png)\r\n \r\n   ![alt text](image-14.png)\r\n"
+                },
+                {
+                    "date": 1722930403572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n ![alt text](image-4.png)\r\n \r\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n-### IoU 계산\r\n+### 예측 계산\r\n \r\n IoU = (TP)/(TP+FP+FN)\r\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n"
+                },
+                {
+                    "date": 1722930446863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,15 +16,18 @@\n ![alt text](image-4.png)\r\n \r\n IoU값은 0~1사이의 값을 가지며 완전히 겹칠때1, 겹치지 않을때 0값을 가짐\r\n \r\n-### 예측 계산\r\n+### 예측 & 재현 계산\r\n \r\n-IoU = (TP)/(TP+FP+FN)\r\n+Precision = (TP)/(TP+FP+FN)\r\n+Recall = (TP)/(TP+FP+FN+TN)\r\n+\r\n TP: True Positive, FP: False Positive, FN: False Negative\r\n \r\n (뒤에가 검출 성공 여부(클래스), 앞에가 정답 여부(IOU))\r\n \r\n+\r\n ## mAP\r\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n"
+                },
+                {
+                    "date": 1722930466733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n \r\n (뒤에가 검출 성공 여부(클래스), 앞에가 정답 여부(IOU))\r\n \r\n \r\n-## mAP\r\n+## mAP(Mean Average Precision)\r\n 알고리즘의성능지표정하기\r\n - 어떤지표를사용해야할까?(IOU를 넘어 전반적 파악)\r\n ![alt text](image-5.png)\r\n - 성능이라는것을어떤것을고려해야할까?\r\n"
+                },
+                {
+                    "date": 1722930508890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,12 @@\n   ![alt text](image-13.png)\r\n \r\n   ![alt text](image-14.png)\r\n   ![alt text](image-15.png)\r\n-- D\r\n+\r\n+- 다양한 클래스 고려\r\n+    예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n+- ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930537695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n   ![alt text](image-15.png)\r\n \r\n - 다양한 클래스 고려\r\n     예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n+    ![alt text](image-16.png)\r\n - ㅇ\r\n ## NMS\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930580729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,8 +64,9 @@\n - 다양한 클래스 고려\r\n     예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n     ![alt text](image-16.png)\r\n - ㅇ\r\n-## NMS\r\n-\r\n+## NMS(Non-Max Suppression)\r\n+너무 예측 결과가 많은 경우\r\n+![alt text](image-17.png)\r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930599561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,6 +67,8 @@\n - ㅇ\r\n ## NMS(Non-Max Suppression)\r\n 너무 예측 결과가 많은 경우\r\n ![alt text](image-17.png)\r\n+\r\n+\r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930621409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,10 +65,10 @@\n     예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n     ![alt text](image-16.png)\r\n - ㅇ\r\n ## NMS(Non-Max Suppression)\r\n-너무 예측 결과가 많은 경우\r\n+너무 예측 결과가 많은 경우, 점수가 높은 박스들 순으로 정렬후, Threshold\r\n ![alt text](image-17.png)\r\n+![alt text](image-18.png)\r\n \r\n-\r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930651089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,10 +65,13 @@\n     예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n     ![alt text](image-16.png)\r\n - ㅇ\r\n ## NMS(Non-Max Suppression)\r\n-너무 예측 결과가 많은 경우, 점수가 높은 박스들 순으로 정렬후, Threshold\r\n+너무 예측 결과가 많은 경우, 점수가 높은 박스들 순으로 정렬후, Threshold걸기\r\n ![alt text](image-17.png)\r\n+\r\n ![alt text](image-18.png)\r\n+![alt text](image-19.png)\r\n \r\n+\r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930705200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,13 +65,16 @@\n     예제에서는클래스하나(person)에대해서만Average Precision을구한것임•하지만실제로는클래스가여러개있으므로각클래스별Average Precision을구한다음에이들을평균한값인mAP값을통해성능을판단\r\n     ![alt text](image-16.png)\r\n - ㅇ\r\n ## NMS(Non-Max Suppression)\r\n-너무 예측 결과가 많은 경우, 점수가 높은 박스들 순으로 정렬후, Threshold걸기\r\n+1. 너무 예측 결과가 많은 경우, 점수가 높은 박스들 순으로 정렬후, Threshold걸기\r\n ![alt text](image-17.png)\r\n \r\n ![alt text](image-18.png)\r\n ![alt text](image-19.png)\r\n \r\n+2. ㄴ\r\n+   ![alt text](image-20.png)\r\n+3. ㅇ\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930715363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n \r\n ![alt text](image-18.png)\r\n ![alt text](image-19.png)\r\n \r\n-2. ㄴ\r\n+2. 최고점수bbox와다른bbox의IoU비교\r\n    ![alt text](image-20.png)\r\n 3. ㅇ\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930766757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,8 +73,8 @@\n ![alt text](image-19.png)\r\n \r\n 2. 최고점수bbox와다른bbox의IoU비교\r\n    ![alt text](image-20.png)\r\n-3. ㅇ\r\n+3. \r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930808630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,8 +73,10 @@\n ![alt text](image-19.png)\r\n \r\n 2. 최고점수bbox와다른bbox의IoU비교\r\n    ![alt text](image-20.png)\r\n-3. \r\n+3. (이해x)\r\n+   ![alt text](image-21.png)\r\n+4. ㅇ\r\n \r\n ## 객체 인식 기초 이론\r\n \r\n"
+                },
+                {
+                    "date": 1722930818728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n ![alt text](image-19.png)\r\n \r\n 2. 최고점수bbox와다른bbox의IoU비교\r\n    ![alt text](image-20.png)\r\n-3. (이해x)\r\n+3. NMS의결과후, 후처리(이해x)\r\n    ![alt text](image-21.png)\r\n 4. ㅇ\r\n \r\n ## 객체 인식 기초 이론\r\n"
+                },
+                {
+                    "date": 1722930833369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,4 @@\n 2. 최고점수bbox와다른bbox의IoU비교\r\n    ![alt text](image-20.png)\r\n 3. NMS의결과후, 후처리(이해x)\r\n    ![alt text](image-21.png)\r\n-4. ㅇ\r\n-\r\n-## 객체 인식 기초 이론\r\n-\r\n"
                 }
             ],
             "date": 1722926311608,
